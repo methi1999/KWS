@@ -1,0 +1,37 @@
+dir:
+  dataset: 'TIMIT/' #for training NN
+  models: 'models/' #dir for storing models
+  plots: 'plots/' #dir for plots
+
+train:
+
+  batch_size: 75000
+  
+  epochs: 100000 #total no. of epochs to train
+  
+  test_per_epoch: 0 #test per epoch i.e. how many times in ONE epoch
+  test_every_epoch: 25 #after how many epochs
+  print_per_epoch: 1 #print loss function how often in each epoch
+  save_every: 50 #save models after how many epochs
+  plot_every: 20 #save plots for test loss/train loss/accuracy
+
+  resume: False #resume training from saved model
+ 
+  loss_func: 'CEL' #loss function 
+  weighted: True #weights for skewed classes
+  optim: 'Adam' #optimiser to speed up training
+  lr: 0.0005 #learning rate
+
+test:
+
+  batch_size: 75000
+
+depth: 'shallow' #deep or shallow
+
+input_dim: 26 #26 for log fitlerbank energies
+output_dim: 39 #39 phone labels
+
+cuda: True #whether to use NVIDIA cuda
+
+left_context: 4 #number of left context frames 
+right_context: 4 #number of right context frames 

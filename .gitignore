@@ -1,0 +1,11 @@
+models_all
+plots
+pr
+sliding/
+TIMIT/*
+!TIMIT/conversionscripts
+
+tinker.py
+kws.zip
+
+*.DS_Store
