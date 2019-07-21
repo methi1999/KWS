@@ -6,7 +6,8 @@ Keyword Spotting (KWS) refers to the task of detecting a pre-defind keyword/phra
 1. The following python packages are required: numpy, matplotlib, pickle, torch, json, scipy, python_speech features, yaml
 2. For relative paths to work smoothly, please adhere to the following directory structure:
 
-KWS
+```bash
+KWS (parent directory)
 ├── speech (download [here](http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz))
 │	├── bed (example class)
 │	├── ...
@@ -18,5 +19,6 @@ KWS
 │	│	├── best.pth (a shallow pre-trained model with ±4 context is included)
 │	│	├── (other models)
 │	├── (python scripts and config file)
+```
 
 3. 'dl_model.py' is responsible for training the Neural Network feature extractor while 'sliding_kws.py' runs the actual experiments and dumps a json file containing the results.
