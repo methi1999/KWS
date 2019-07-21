@@ -1,5 +1,5 @@
 # Introduction
-Keyword Spotting (KWS) refers to the task of detecting a pre-defind keyword/phrase in an audio file or a stream of audio. The implemented algorithm uses a sliding Dynamic Time Warping (DTW) approach. Refer to [this paper](https://ieeexplore.ieee.org/abstract/document/6140822/) for a detailed explanation. You can also view my presentation [here](https://methi1999.github.io/pdf/kws.pptx).
+Keyword Spotting (KWS) refers to the task of detecting a pre-defind keyword/phrase in an audio file or a stream of audio. The implemented algorithm uses a sliding Dynamic Time Warping (DTW) approach. Refer to [this paper](https://ieeexplore.ieee.org/abstract/document/6140822/) for a detailed explanation. You can also view my presentation [here](https://methi1999.github.io/pdf/kws.pdf).
 
 # Instructions
 
